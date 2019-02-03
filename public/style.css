@@ -1,0 +1,66 @@
+.clearfix{
+	overflow: auto;
+}	
+.preview{
+	margin: 10px 0;
+	padding: 5px;
+}
+.previewData img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 5px;
+} 
+.previewDetails{
+	 display: inline-block;
+    float: left;
+    margin: 5px;
+    padding: 8px;
+}
+.detail{
+	  font-family: arial;
+    padding: 5px;
+    overflow: hidden;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.previewControls{
+	display: inline-block;
+	float: left;
+	margin: 40px 30px;
+}
+.circle{
+	border: 2px solid #5B93F5;
+    border-radius: 20px;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    cursor: pointer;
+    color: #5B93F5;
+}
+.circle.upload:hover{
+	border: 2px solid green;	
+}
+.circle.upload:hover i.fa-check{
+	color: green;
+}
+.circle.remove:hover{
+	border: 2px solid red;	
+}
+.circle.remove:hover i.fa-close{
+	color: red;
+}
+.circle i{
+	position: relative;
+	font-size: 14px;
+}
+.circle i.fa-check{
+	top: -2px;
+	left: 4px;
+}
+.circle i.fa-close{	
+	top: -2px;
+	left: 5px;
+}
